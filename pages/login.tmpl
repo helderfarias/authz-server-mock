@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <form method="post" action="/auth/oauth/sigin">
+            <p>Login<p><input /><br/>
+            <p>Senha<p><input /><br/>
+            <input type="hidden" name="redirect_uri" value="{{ .redirect_uri }}"/>
+            <button type="submit">Login</button>
+        </html>
+    </body>
+</html>
